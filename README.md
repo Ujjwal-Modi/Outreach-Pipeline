@@ -613,32 +613,6 @@ Increase outreach volume without increasing operational workload.
 
 ---
 
-# 🎓 Assignment Background
-
-This project was inspired by a real-world Software Engineering take-home challenge focused on building a fully automated outreach engine.
-
-The core objective:
-
-```text
-One Input
-     ↓
-Four Automated Stages
-     ↓
-Outreach Sent
-```
-
-Requirements included:
-
-* Similar company discovery
-* Decision-maker sourcing
-* Email resolution
-* Outreach automation
-* End-to-end execution with minimal human intervention
-
-The final implementation expands this concept into a complete full-stack application with deployment, UI, API integrations, review workflows, and production-ready architecture.
-
----
-
 # 🔮 Future Enhancements
 
 * CRM Integrations
