@@ -6,16 +6,6 @@
 [![Backend API](https://img.shields.io/badge/Backend-Render-blue?style=for-the-badge)](https://outreach-pipeline-n941.onrender.com)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge\&logo=github)](https://github.com/Ujjwal-Modi/Outreach-Pipeline)
 
-[![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge\&logo=react)](https://react.dev/)
-[![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge\&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![UI](https://img.shields.io/badge/UI-TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css)](https://tailwindcss.com/)
-[![HTTP](https://img.shields.io/badge/HTTP-Axios-5A29E4?style=for-the-badge)](https://axios-http.com/)
-[![Deployment](https://img.shields.io/badge/Deployment-Vercel%20%7C%20Render-black?style=for-the-badge)](#)
-
-![GitHub stars](https://img.shields.io/github/stars/Ujjwal-Modi/Outreach-Pipeline?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Ujjwal-Modi/Outreach-Pipeline?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Ujjwal-Modi/Outreach-Pipeline?style=social)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/Ujjwal-Modi/Outreach-Pipeline)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ujjwal-Modi/Outreach-Pipeline)
 ![GitHub top language](https://img.shields.io/github/languages/top/Ujjwal-Modi/Outreach-Pipeline)
@@ -182,36 +172,6 @@ No switching between multiple tools.
 * API failure recovery
 * Modular architecture
 * Safe email workflow
-
----
-
-# 🏗️ System Architecture
-
-```mermaid
-flowchart LR
-
-A[Company Domain]
-
---> B[Ocean.io]
-
-B --> C[Similar Companies]
-
-C --> D[Prospeo]
-
-D --> E[Decision Makers]
-
-E --> F[LinkedIn Profiles]
-
-F --> G[Email Resolution]
-
-G --> H[Verified Work Emails]
-
-H --> I[Review Step]
-
-I --> J[Brevo]
-
-J --> K[Outreach Sent]
-```
 
 ---
 
@@ -527,32 +487,6 @@ Emails Sent
 
 ---
 
-# 📂 Project Structure
-
-```text
-Outreach-Pipeline
-│
-├── Frontend
-│   ├── Components
-│   ├── Pages
-│   ├── Services
-│   ├── Hooks
-│   ├── Utils
-│   └── API Calls
-│
-├── Backend
-│   ├── Routes
-│   ├── Services
-│   ├── Models
-│   ├── Utils
-│   ├── Integrations
-│   └── main.py
-│
-└── README.md
-```
-
----
-
 # 🚀 Local Setup
 
 ## Clone Repository
@@ -581,6 +515,10 @@ OCEAN_API_KEY=
 PROSPEO_API_KEY=
 
 BREVO_API_KEY=
+
+FROM_NAME=
+
+FROM_EMAIL=
 ```
 
 Run Backend
